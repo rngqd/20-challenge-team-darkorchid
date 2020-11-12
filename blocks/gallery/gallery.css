@@ -1,0 +1,13 @@
+.gallery {
+  background: #141F35;
+  padding-top: 35px;
+  padding-bottom: 53px;
+  width: 100%;
+}
+
+@media screen and (min-width: 1280px) {
+  .gallery {
+    margin: 0 auto;
+    max-width: 1280px;
+  }
+}

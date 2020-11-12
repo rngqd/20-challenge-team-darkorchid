@@ -31,5 +31,9 @@
 @import url(../blocks/features/__block-text/features__block-text.css);
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__content/gallery__content.css);
-@import url(../blocks/gallery/__photos/gallery__photos.css);
-@import url(../blocks/gallery/__photo/gallery__photo.css);
+@import url(../blocks/gallery/__picture/gallery__picture.css);
+@import url(../blocks/gallery/__video/gallery__video.css);
+@import url(../blocks/gallery/__video-time/gallery__video-time.css);
+@import url(../blocks/gallery/__video-logo/gallery__video-logo.css);
+@import url(../blocks/gallery/__video/_work/gallery__video_work.css);
+@import url(../blocks/gallery/__video/_place/gallery__video_place.css);

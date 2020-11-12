@@ -1,0 +1,17 @@
+.gallery__picture {
+  max-width: 126px;
+  max-height: 126px;
+  margin-right: 14px;
+}
+
+.gallery__picture:last-child {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .gallery__picture {
+    margin: 0;
+    min-width: 224px;
+    min-height: 224px;
+  }
+}

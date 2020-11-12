@@ -1,0 +1,33 @@
+.gallery__content {
+  display: flex;
+  overflow-x: scroll;
+  margin: 0 auto;
+  max-width: 83%;
+}
+.gallery__content::-webkit-scrollbar {
+  width: 10px;
+  height: 4px;
+  margin-top: 14px;
+}
+
+.gallery__content::-webkit-scrollbar-track {
+  background: #CECECE;
+  border-radius: 6px;
+}
+
+.gallery__content::-webkit-scrollbar-thumb {
+  background: #FFBB01;
+  border-radius: 6px; 
+}
+
+@media screen and (min-width: 1280px) {
+  .gallery__content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px;
+    max-width: calc(100% - 168px*2);
+    overflow-x: visible;
+    margin: 0 auto;
+  }
+}
