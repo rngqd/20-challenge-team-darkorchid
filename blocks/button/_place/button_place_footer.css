@@ -1,0 +1,15 @@
+.button_place_footer {
+  width: 220px;
+  height: 54px;
+  margin-bottom: 48px;
+  margin-top: 37px;
+}
+
+@media screen and (min-width: 1280px) {
+  .button_place_footer {
+    width: 380px;
+    height: 66px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+  }
+}

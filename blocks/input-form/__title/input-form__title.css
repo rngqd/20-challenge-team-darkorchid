@@ -1,0 +1,20 @@
+.input-form__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  padding-top: 38px;
+  margin: 0 22px 28px;
+  color: #000; 
+}
+
+@media screen and (min-width: 1280px) {
+  .input-form__title {
+    font-size: 18px;
+    line-height: 28px;
+    padding-top: 47px;
+    margin: 0 39px 30px;
+
+  }
+}

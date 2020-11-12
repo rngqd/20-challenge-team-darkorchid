@@ -1,0 +1,12 @@
+.input-form__input_phone-number {
+  background-image: url(../../../../images/phone-icon.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 24px left 22px;
+  margin-top: 18px;
+}
+
+@media screen and (min-width: 1280px) {
+  .input-form__input_phone-number {
+    margin-top: 20px;
+  }
+}
