@@ -1,0 +1,15 @@
+.gallery__video {
+  position: relative;
+  min-width: 126px;
+  min-height: 126px;
+  margin-right: 14px;
+}
+
+@media screen and (min-width: 1280px) {
+  .gallery__video {
+    margin-right: 0;
+  }
+}
+
+
+
