@@ -1,0 +1,8 @@
+.socials__item-link {
+  transition: opacity 0.3s ease;
+  opacity: 1;
+}
+
+.socials__item-link:hover {
+  opacity: 0.5;
+}

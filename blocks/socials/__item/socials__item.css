@@ -1,0 +1,14 @@
+.socials__item {
+  padding: 0;
+  margin: 0 13px 0 0;
+}
+
+.socials__item:nth-last-child(1) {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .socials__item{
+    margin-right: 21px;
+  }
+}
