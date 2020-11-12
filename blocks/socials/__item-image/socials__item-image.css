@@ -1,0 +1,12 @@
+.socials__item-image {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+@media screen and (min-width: 1280px) {
+  .socials__item-image{
+    width: 20px;
+    height: 20px;
+  }
+}
