@@ -1,0 +1,16 @@
+.hero__avatar{
+  height: 107px;
+  width: 107px;
+  border-radius: 107px;
+  object-fit: cover;
+  border: 3px solid #FFF;
+}
+
+@media screen and (min-width: 1280px) {
+  .hero__avatar {
+    height: 362px;
+    width: 362px;
+    border-radius: 362px;
+    border: 11px solid #FFF;
+  }
+}

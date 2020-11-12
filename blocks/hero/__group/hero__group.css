@@ -1,0 +1,12 @@
+.hero__group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 445px;
+}
+
+@media screen and (min-width: 1280px) {
+  .hero__group {
+    align-items: flex-start;;
+  }
+}

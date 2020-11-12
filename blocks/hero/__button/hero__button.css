@@ -1,0 +1,22 @@
+.hero__button{
+  display: inline-block;
+  color: #1B2944;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  padding: 15.5px 60.5px;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: #FFBB01;
+  transition: 0.2s;
+} 
+.hero__button:hover { 
+  background: linear-gradient(#f5ae00, #f59500) #f5ae00;
+ }
+.hero__button:active { 
+  background: linear-gradient(#f59500, #f5ae00) #f59500;
+ }

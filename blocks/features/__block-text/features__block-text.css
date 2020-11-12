@@ -1,0 +1,12 @@
+.features__block-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  margin: 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .features__block-text {
+    font-size: 16px;
+  }
+}

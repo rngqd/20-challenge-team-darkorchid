@@ -1,0 +1,17 @@
+.hero__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  margin: 15px 0 58px;
+}
+
+@media screen and (min-width: 1280px) {
+  .hero__description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: start;
+    margin: 20px 0 38px;
+  }
+}

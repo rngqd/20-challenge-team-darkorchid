@@ -1,0 +1,15 @@
+.features {
+    width: 100%;
+    background-color: #141F35;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 63px 0 42px;
+}
+
+@media screen and (min-width: 1280px) {
+    .features{
+        padding: 64px 0 92px;
+    }
+  }

@@ -1,13 +1,15 @@
-.header{
+.hero {
   width: 100%;
   background-color: #1B2944;
-  padding: 35px 0 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  padding: 46px 0 42px;
 }
 
 @media screen and (min-width: 1280px) {
-  .header {
-    padding-top: 41px;
+  .hero {
+    padding: 113px 0 71px;
   }
 }
