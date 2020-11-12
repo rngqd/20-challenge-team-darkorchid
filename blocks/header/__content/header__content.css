@@ -7,7 +7,6 @@
 
 @media screen and (min-width: 1280px) {
   .header__content{
-    padding-top: 41px;
     width: calc(100% - 2*168px);
   }
 }

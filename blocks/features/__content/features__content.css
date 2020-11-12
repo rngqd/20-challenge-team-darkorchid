@@ -1,0 +1,11 @@
+.features__content{
+  width: calc(100% - 2*29px);
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1280px) {
+  .features__content{
+    width: calc(100% - 2*168px);
+  }
+}

@@ -1,0 +1,17 @@
+.features__blocks {
+  padding: 59px 0 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(268px, 1fr));
+  margin: 0;
+  row-gap: 35px;
+}
+
+@media screen and (min-width: 1280px) {
+  .features__blocks{
+    column-gap: 15px;
+    row-gap: 69px;
+    padding-top: 80px;
+  }
+}
+
