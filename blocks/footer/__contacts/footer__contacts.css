@@ -1,7 +1,6 @@
 .footer__contacts {
   display: flex;
   flex-direction: column;
-  margin: 50px auto 0;
   max-width: 264px;
 }
 

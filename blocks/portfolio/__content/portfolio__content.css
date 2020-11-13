@@ -1,0 +1,11 @@
+.portfolio__content {
+  width: calc(100% - 2*27px);
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1280px) {
+  .portfolio__content {
+    width: calc(100% - 2*168px);
+  }
+}

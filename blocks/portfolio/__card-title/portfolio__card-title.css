@@ -1,0 +1,15 @@
+.portfolio__card-title {
+  margin: 0 0 0 24px;
+  max-width: 140px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+@media screen and (min-width: 1280px) {
+  .portfolio__card-title {
+    max-width: 170px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+}

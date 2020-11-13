@@ -1,0 +1,26 @@
+.portfolio__card{
+  background: center center/contain no-repeat;
+  height: 267px;
+  width: 267px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-bottom: 35px;  
+  background-size: contain;
+}
+.portfolio__card:nth-last-child(1) {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .portfolio__card {
+    height: 304px;
+    width: 304px;
+    margin-right: 16px;
+    margin-bottom: 0;
+  }
+  .portfolio__card:nth-last-child(1) {
+    margin-right: 0;
+  }
+}

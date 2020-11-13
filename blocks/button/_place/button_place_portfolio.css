@@ -1,0 +1,18 @@
+.button_place_portfolio{
+  width: 112px;
+  height: 32px;
+  margin: 22px 0 25px 24px;
+  background: #EC1F46;
+  box-shadow: 0px 4px 0px #CE1C3E;
+  color: #FFF;
+  text-transform: none;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 1280px) {
+  .button_place_portfolio {
+    width: 120px;
+    height: 36px;
+  }
+}
