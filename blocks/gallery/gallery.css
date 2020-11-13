@@ -10,8 +10,6 @@
 
 @media screen and (min-width: 1280px) {
   .gallery {
-    margin: 0 auto;
-    padding-top: 96px;
-    padding-bottom: 96px ;
+  padding: 96px 0;
   }
 }

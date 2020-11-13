@@ -23,7 +23,6 @@
 @import url(../blocks/hero/__avatar/hero__avatar.css);
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/features/features.css);
-@import url(../blocks/features/__title/features__title.css);
 @import url(../blocks/features/__content/features__content.css);
 @import url(../blocks/features/__blocks/features__blocks.css);
 @import url(../blocks/features/__block/features__block.css);
@@ -51,13 +50,14 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__content/footer__content.css);
 @import url(../blocks/footer/__block/footer__block.css);
-@import url(../blocks/title/__footer/title__footer.css);
 @import url(../blocks/input-form/input-form.css);
 @import url(../blocks/input-form/__form/input-form__form.css);
 @import url(../blocks/input-form/__input/input-form__input.css);
 @import url(../blocks/input-form/__input/_name/input-form__input_name.css);
 @import url(../blocks/input-form/__input/_phone-number/input-form__input_phone-number.css);
 @import url(../blocks/input-form/__title/input-form__title.css);
+@import url(../blocks/input-form/__title/_mobile/input-form__title_mobile.css);
+@import url(../blocks/input-form/__title/_dekstop/input-form__title_dekstop.css);
 @import url(../blocks/footer/__contacts/footer__contacts.css);
 @import url(../blocks/footer/__contact/footer__contact.css);
 @import url(../blocks/footer/__contact-title/footer__contact-title.css);
@@ -65,6 +65,5 @@
 @import url(../blocks/footer/__contact-link/footer__contact-link.css);
 @import url(../blocks/footer/__contact-socials/footer__contact-socials.css);
 @import url(../blocks/footer/__contact-social/footer__contact-social.css);
-@import url(../blocks/footer/__contact_navigation/footer__contact_navigation.css);
 @import url(../blocks/footer/__contact-politic/footer__contact-politic.css);
 @import url(../blocks/footer/__contact-social-item/footer__contact-social-item.css);

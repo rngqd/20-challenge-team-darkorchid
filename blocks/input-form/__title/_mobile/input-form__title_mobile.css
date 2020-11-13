@@ -1,0 +1,9 @@
+.input-form__title_mobile {
+  display: block;
+}
+
+@media screen and (min-width: 1280px) {
+  .input-form__title_mobile {
+    display: none;
+  }
+}
