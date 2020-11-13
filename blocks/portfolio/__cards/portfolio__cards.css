@@ -1,0 +1,12 @@
+.portfolio__cards {
+  display: flex;
+  flex-direction: column;
+  margin: 35px 0 89px;
+}
+
+@media screen and (min-width: 1280px) {
+  .portfolio__cards {
+    flex-direction: row;
+    margin: 54px 0 64px ;
+  }
+}
