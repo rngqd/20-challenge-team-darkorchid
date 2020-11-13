@@ -5,5 +5,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.footer_t {
+  width: calc(100% - 168px*2);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
 }
