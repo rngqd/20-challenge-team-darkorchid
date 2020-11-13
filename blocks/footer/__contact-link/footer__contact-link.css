@@ -1,15 +1,12 @@
-.footer__contact-social {
+.footer__contact-link {
   text-decoration: none;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 16px;
-  padding-top: 12px;
   color: #FFFFFF;
   transition: opacity 0.3s ease;
   opacity: 1;
 }
 
-.footer__contact-social:hover {
+.footer__contact-link:hover {
   opacity: 0.3;
 }

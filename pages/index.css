@@ -61,6 +61,7 @@
 @import url(../blocks/footer/__contact/footer__contact.css);
 @import url(../blocks/footer/__contact-title/footer__contact-title.css);
 @import url(../blocks/footer/__contact-content/footer__contact-content.css);
+@import url(../blocks/footer/__contact-link/footer__contact-link.css);
 @import url(../blocks/footer/__contact-socials/footer__contact-socials.css);
 @import url(../blocks/footer/__contact-social/footer__contact-social.css);
 @import url(../blocks/footer/__contact_navigation/footer__contact_navigation.css);

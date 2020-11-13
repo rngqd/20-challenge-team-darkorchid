@@ -6,6 +6,11 @@
   font-style: normal;
   font-weight: 700;
   line-height: 130%;
-  text-transform: uppercase;
   text-decoration: none;
+  transition: opacity 0.3s ease;
+  opacity: 1;
+}
+
+.button:hover {
+  opacity: 0.5;
 }
