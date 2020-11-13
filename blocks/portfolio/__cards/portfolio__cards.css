@@ -4,6 +4,12 @@
   margin: 35px 0 89px;
 }
 
+@media screen and (min-width: 768px) {
+  .portfolio__cards {
+    align-items: center;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .portfolio__cards {
     flex-direction: row;

@@ -7,6 +7,12 @@
   row-gap: 35px;
 }
 
+@media screen and (min-width: 768px) {
+  .features__blocks{
+    column-gap: 25px;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .features__blocks{
     column-gap: 15px;

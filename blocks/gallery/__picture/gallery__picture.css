@@ -11,7 +11,7 @@
 @media screen and (min-width: 1280px) {
   .gallery__picture {
     margin: 0;
-    min-width: 224px;
-    min-height: 224px;
+    max-width: 224px;
+    max-height: 224px;
   }
 }

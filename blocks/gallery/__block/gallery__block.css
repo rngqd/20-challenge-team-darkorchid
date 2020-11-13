@@ -1,0 +1,30 @@
+.gallery__block {
+  display: flex;
+  overflow-x: scroll;
+  padding-bottom: 15px;
+}
+.gallery__block::-webkit-scrollbar {
+  width: 10px; 
+  height: 4px;
+  margin-top: 14px;
+}
+
+.gallery__block::-webkit-scrollbar-track {
+  background: #CECECE;
+  border-radius: 6px;
+}
+
+.gallery__block::-webkit-scrollbar-thumb {
+  background: #FFBB01;
+  border-radius: 6px; 
+}
+
+@media screen and (min-width: 1280px) {
+  .gallery__block {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px;
+    overflow-x: visible;
+  }
+}

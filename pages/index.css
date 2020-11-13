@@ -40,6 +40,7 @@
 @import url(../blocks/portfolio/__card-title/portfolio__card-title.css);
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__content/gallery__content.css);
+@import url(../blocks/gallery/__block/gallery__block.css);
 @import url(../blocks/gallery/__picture/gallery__picture.css);
 @import url(../blocks/gallery/__video/gallery__video.css);
 @import url(../blocks/gallery/__video-time/gallery__video-time.css);
