@@ -6,7 +6,9 @@
   text-decoration-line: underline;
   display: block;
   color: #949494;
-  margin: 26px 0 0 0;
+  margin: 26px 0 0;
+  transition: opacity 0.3s ease;
+  opacity: 1;
   }
 
   @media screen and (min-width: 1280px) {
@@ -14,3 +16,7 @@
       margin-top: 220px;
     }
   }
+
+.footer__contact-politic:hover {
+  opacity: 0.3;
+}

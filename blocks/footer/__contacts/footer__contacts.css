@@ -4,11 +4,17 @@
   max-width: 264px;
 }
 
+@media screen and (min-width: 768px) {
+  .footer__contacts {
+    margin-top: 60px;
+  }
+}
+
+
 @media screen and (min-width: 1280px) {
   .footer__contacts {
     margin: 80px 0 0 0;
     min-width: 384px;
-    
     position: relative;
     flex-direction: column;
   }

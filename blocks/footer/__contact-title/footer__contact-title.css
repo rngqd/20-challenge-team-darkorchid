@@ -5,3 +5,11 @@
   line-height: 21px;
   margin:0;
 }
+
+
+@media screen and (min-width: 1280px) {
+  .footer__contact-title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
