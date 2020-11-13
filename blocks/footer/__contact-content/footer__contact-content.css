@@ -1,9 +1,9 @@
 .footer__contact-content {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  /* font-size: 14px;
   line-height: 16px;
-  color: #FFFFFF;
+  color: #FFFFFF; */
   margin: 13px 0 0 0;
 }
 
@@ -11,4 +11,12 @@
   .footer__contact-content {
     margin-top: 20px;
   }
+}
+
+.footer__contact-link{
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  display: block;
 }
