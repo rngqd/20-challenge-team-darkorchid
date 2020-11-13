@@ -8,13 +8,13 @@
 
 @media screen and (min-width: 768px) {
   .footer__content {
-    width: calc(100% - 2*70px);
+    max-width: 628px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .footer__content {
-    width: calc(100% - 168px*2);
+    max-width: 944px;
     align-items: flex-start;
   }
 }

@@ -1,0 +1,9 @@
+.input-form__title_dekstop {
+  display: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .input-form__title_dekstop {
+    display: block;
+  }
+}

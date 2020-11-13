@@ -1,4 +1,4 @@
-.hero__content{
+.hero__content {
   width: calc(100% - 2*25px);
   display: flex;
   flex-direction: column;
@@ -8,8 +8,8 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .hero__content{
-    width: calc(100% - 2*168px);
+  .hero__content {
+    max-width: 944px;
     flex-direction: row;
     flex-flow: row-reverse;
     align-items: center;

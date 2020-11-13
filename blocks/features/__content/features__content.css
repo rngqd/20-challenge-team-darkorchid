@@ -1,4 +1,4 @@
-.features__content{
+.features__content {
   width: calc(100% - 2*29px);
   display: flex;
   flex-direction: column;
@@ -6,13 +6,13 @@
 }
 
 @media screen and (min-width: 768px) {
-  .features__content{
+  .features__content {
     width: calc(100% - 2*70px);
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .features__content{
-    width: calc(100% - 2*168px);
+  .features__content {
+    max-width: 944px;
   }
 }

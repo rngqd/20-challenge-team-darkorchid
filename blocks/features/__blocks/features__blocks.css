@@ -8,13 +8,13 @@
 }
 
 @media screen and (min-width: 768px) {
-  .features__blocks{
+  .features__blocks {
     column-gap: 25px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .features__blocks{
+  .features__blocks {
     column-gap: 15px;
     row-gap: 69px;
     padding-top: 80px;
