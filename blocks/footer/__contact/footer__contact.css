@@ -1,0 +1,11 @@
+.footer__contact {
+  margin-bottom: 35px;
+}
+
+@media screen and (min-width: 1280px) {
+  .footer__contact:nth-of-type(2n) {
+    position: absolute;
+    right: 36px;
+    margin-bottom: 32px;
+  }
+}

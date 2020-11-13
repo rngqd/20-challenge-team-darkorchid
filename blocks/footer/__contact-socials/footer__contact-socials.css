@@ -1,0 +1,17 @@
+.footer__contact-socials {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .footer__contact-socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 8px;
+  }
+  .footer__contact-socials:last-child {
+    margin-right: 10px;
+  }
+}

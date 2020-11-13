@@ -1,0 +1,14 @@
+.input-form {
+  background: white;
+  box-shadow:-5px 5px #FFBB01;
+  border-radius: 5%;
+  max-width: 264px;
+  margin: 60px auto 53px;  
+}
+
+@media screen and (min-width: 1280px) {
+  .input-form{ 
+    max-width: 458px;
+    margin: 80px 0 0 0;
+  }
+}

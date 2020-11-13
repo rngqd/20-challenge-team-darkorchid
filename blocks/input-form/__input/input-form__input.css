@@ -1,0 +1,25 @@
+.input-form__input {
+  background: #F8F8F8;
+  box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+  border: none;
+  border-radius: 5px;
+  width: 220px;
+  height: 64px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.input-form__input::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  padding-left: 52px;
+}
+
+@media screen and (min-width: 1280px) {
+  .input-form__input {
+    width: 380px;
+    height: 70px;
+  }
+}
