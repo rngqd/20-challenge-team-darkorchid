@@ -1,0 +1,7 @@
+@media screen and (min-width: 1280px) {
+  .footer__block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
