@@ -27,3 +27,7 @@
 
 -   [Радковская Юля](https://github.com/radkovskaya-ulia)
 -   [Александр Муковня](https://github.com/kronos2033)
+
+## Посмотреть на результат
+
+с резуьтатом проделанной работы можно ознакомиться по [ссылке](https://20-challenge-team-darkorchid.vercel.app/)
